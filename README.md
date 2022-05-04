@@ -9,12 +9,12 @@ This Repo is where I will be posting all the Code Wars Katas that I have complet
 
 2. Name - String end with, Rank - 7
     Q: Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
-
+    fbox{
     Examples:
 
     solution('abc', 'bc') // returns true
     solution('abc', 'd') // returns false
-
+}
 3. Name - Merge two sorted arrays into one, Rank - 8
     Q: You are given two sorted arrays that both only contain integers. Your task is to find a way to merge them into a single one, sorted in asc order. Complete the function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
 
