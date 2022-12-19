@@ -86,6 +86,8 @@ This Repo is where I will be posting all the Code Wars Katas that I have complet
     Q. Complete the solution so that the function will break up camel casing, using a space between words.
 
     ex.
+    ```
         "camelCasing"  =>  "camel Casing"
         "identifier"   =>  "identifier"
         ""             =>  ""
+    ```
