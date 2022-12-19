@@ -82,4 +82,10 @@ This Repo is where I will be posting all the Code Wars Katas that I have complet
     because:- one of it's even element 10 from [4,2,10] is greater than two of its odd elements [9,3] from [ 11,9,3]
     write a function called isOddHeavy or is_odd_heavy that accepts an integer array and returns true if the array is odd-heavy else return false.
 
-12. Name - , Rank - 
+12. Name - Break camelCase, Rank - 6
+    Q. Complete the solution so that the function will break up camel casing, using a space between words.
+
+    ex.
+        "camelCasing"  =>  "camel Casing"
+        "identifier"   =>  "identifier"
+        ""             =>  ""
