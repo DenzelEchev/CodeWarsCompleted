@@ -1,4 +1,4 @@
-#This Repo is where I will be posting all the Code Wars Katas that I have completed. I will post the answers that I posted in the JS answer file(answers.js) and the questions numbered and ranked on this page.
+# This Repo is where I will be posting all the Code Wars Katas that I have completed. I will post the answers that I posted in the JS answer file(answers.js) and the questions numbered and ranked on this page.
 
 1. Name - Multiply, Rank - 8
     Q: This code does not execute properly. Try to figure out why.
