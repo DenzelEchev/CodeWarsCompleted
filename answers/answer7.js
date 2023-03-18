@@ -1,0 +1,1 @@
+let getAge = inputString => parseInt(inputString)
