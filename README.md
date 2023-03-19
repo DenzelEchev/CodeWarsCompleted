@@ -91,3 +91,30 @@
         "identifier"   =>  "identifier"
         ""             =>  ""
     ```
+
+13. Name - Is your period late?, Rank 8
+    Q. In this kata, we will make a function to test whether a period is late.Our function will take three parameters:
+    ```
+    last - The Date object with the date of the last period
+    today - The Date object with the date of the check
+    cycleLength - Integer representing the length of the cycle in days
+    ```
+    Return true if the number of days passed from last to today is greater than cycleLength. Otherwise, return false.
+
+14. Name - Determine offspring sex based on genes XX and XY chromosomes, Rank 8
+    Q. Determine if the sex of the offspring will be male or female based on the X or Y chromosome present in the male's sperm.
+    ```
+    If the sperm contains the X chromosome, return "Congratulations! You're going to have a daughter."; If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
+    ```
+
+15. Name - Find Nearest square number, Rank 8
+    Q.Your task is to find the nearest square number, nearest_sq(n) or nearestSq(n), of a positive integer n. If the n is already the perfect square (e.g. n = 144, n = 81, etc.), you need to just return n.
+
+16. Name - Remove String Spaces, Rank 8
+    Q.Write a function that removes the spaces from the string, then return the resultant string.
+    ```
+    Ex.
+    "8 j 8   mBliB8g  imjB8B8  jl  B" -> "8j8mBliB8gimjB8B8jlB"
+    "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
+    "8aaaaa dddd r     " -> "8aaaaaddddr"
+    ```
