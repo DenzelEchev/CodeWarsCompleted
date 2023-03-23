@@ -108,15 +108,19 @@
     ```
 
 15. Name - Find Nearest square number, Rank 8
-    Q.Your task is to find the nearest square number, nearest_sq(n) or nearestSq(n), of a positive integer n. If the n is already the perfect square (e.g. n = 144, n = 81, etc.), you need to just return n.
+    Q. Your task is to find the nearest square number, nearest_sq(n) or nearestSq(n), of a positive integer n. If the n is already the perfect square (e.g. n = 144, n = 81, etc.), you need to just return n.
 
 16. Name - Remove String Spaces, Rank 8
-    Q.Write a function that removes the spaces from the string, then return the resultant string.
+    Q. Write a function that removes the spaces from the string, then return the resultant string.
     ```
     Ex.
     "8 j 8   mBliB8g  imjB8B8  jl  B" -> "8j8mBliB8gimjB8B8jlB"
     "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
     "8aaaaa dddd r     " -> "8aaaaaddddr"
     ```
+
 17. Name - Simple Change Machine, Rank 8
-    Q.Your task is to create a change machine. The machine accepts these coins and notes: £5, £2, £1, 50p, 20p. Any coins and notes which are not accepted by the machine will be returned. If you were to put a £20 note into the machine for example, it would be returned to you and not broken into change.
+    Q. Your task is to create a change machine. The machine accepts these coins and notes: £5, £2, £1, 50p, 20p. Any coins and notes which are not accepted by the machine will be returned. If you were to put a £20 note into the machine for example, it would be returned to you and not broken into change.
+
+18. Name - Divide and Conquer, Rank 7
+    Q. Given a mixed array of number and string representations of integers, add up the non-string integers and subtract the total of the string integers. Return as a number.
