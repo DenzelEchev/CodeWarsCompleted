@@ -118,3 +118,5 @@
     "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
     "8aaaaa dddd r     " -> "8aaaaaddddr"
     ```
+17. Name - Simple Change Machine, Rank 8
+    Q.Your task is to create a change machine. The machine accepts these coins and notes: £5, £2, £1, 50p, 20p. Any coins and notes which are not accepted by the machine will be returned. If you were to put a £20 note into the machine for example, it would be returned to you and not broken into change.
