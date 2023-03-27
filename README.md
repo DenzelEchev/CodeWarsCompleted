@@ -124,3 +124,11 @@
 
 18. Name - Divide and Conquer, Rank 7
     Q. Given a mixed array of number and string representations of integers, add up the non-string integers and subtract the total of the string integers. Return as a number.
+
+19. Name - All Star Code Challenge, Rank 8
+    Q. Create a function that accepts a string and a single character, and returns an integer of the count of occurrences the 2nd argument is found in the first one. If no occurrences can be found, a count of 0 should be returned.
+    ```
+    ("Hello", "o")  ==>  1
+    ("Hello", "l")  ==>  2
+    ("", "z")       ==>  0
+    ```
