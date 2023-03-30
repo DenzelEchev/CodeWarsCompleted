@@ -101,7 +101,7 @@
     ```
     Return true if the number of days passed from last to today is greater than cycleLength. Otherwise, return false.
 
-14. Name - Determine offspring sex based on genes XX and XY chromosomes, Rank 8
+14. Name - Determine offspring sex, Rank 8
     Q. Determine if the sex of the offspring will be male or female based on the X or Y chromosome present in the male's sperm.
     ```
     If the sperm contains the X chromosome, return "Congratulations! You're going to have a daughter."; If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
@@ -138,4 +138,11 @@
     ```
     pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
     pigIt('Hello world !');     // elloHay orldway !
+    ```
+
+21. Decreasing Inputs, Rank 7
+    Q. You will create a function named add. It will return the sum of all the arguments. The inputs will gradually decrease with their index as parameter to the function.
+    ```
+    add(3,4,6); 
+    returns ( 3 / 1 ) + ( 4 / 2 ) + ( 6 / 3 ) = 7
     ```
