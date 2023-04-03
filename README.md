@@ -140,9 +140,15 @@
     pigIt('Hello world !');     // elloHay orldway !
     ```
 
-21. Decreasing Inputs, Rank 7
+21. Name - Decreasing Inputs, Rank 7
     Q. You will create a function named add. It will return the sum of all the arguments. The inputs will gradually decrease with their index as parameter to the function.
     ```
     add(3,4,6); 
     returns ( 3 / 1 ) + ( 4 / 2 ) + ( 6 / 3 ) = 7
+    ```
+22. Name - Convert number to reversed array of digits, Rank 8
+    Q. Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+    ```
+    35231 => [1,3,2,5,3]
+    0 => [0]
     ```
