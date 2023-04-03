@@ -152,3 +152,5 @@
     35231 => [1,3,2,5,3]
     0 => [0]
     ```
+23. Name - Insert dashes, Rank 7
+    Q. Write a function insert_dash(num) that will insert dashes ('-') between each two odd digits in num.
