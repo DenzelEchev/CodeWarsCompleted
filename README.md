@@ -154,3 +154,12 @@
     ```
 23. Name - Insert dashes, Rank 7
     Q. Write a function insert_dash(num) that will insert dashes ('-') between each two odd digits in num.
+
+24. Name - Power of Two, Rank 7
+    Q. Complete the function power_of_two/powerOfTwo (or equivalent, depending on your language) that determines if a given non-negative integer is a power of two.
+
+    ```
+    isPowerOfTwo(1024) // -> true
+    isPowerOfTwo(4096) // -> true
+    isPowerOfTwo(333)  // -> false
+    ```
