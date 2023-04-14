@@ -163,3 +163,10 @@
     isPowerOfTwo(4096) // -> true
     isPowerOfTwo(333)  // -> false
     ```
+
+25. Name - Mexican Wave, Rank 6
+    Q. In this simple Kata your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return that string in an array where an uppercase letter is a person standing up. 
+
+    ```
+    wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
+    ```
