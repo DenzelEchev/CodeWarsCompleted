@@ -170,3 +170,10 @@
     ```
     wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
     ```
+
+26. Name Greet Me, Rank 7
+    Q. Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.
+    ```
+    "riley" --> "Hello Riley!"
+    "JACK"  --> "Hello Jack!"
+    ```
