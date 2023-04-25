@@ -171,13 +171,13 @@
     wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
     ```
 
-26. Name Greet Me, Rank 7
+26. Name - Greet Me, Rank 7
     Q. Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.
     ```
     "riley" --> "Hello Riley!"
     "JACK"  --> "Hello Jack!"
     ```
-27. Name Hello World - Without Strings, Rank 7
+27. Name - Hello World - Without Strings, Rank 7
     Q. You need to create a function, helloWorld, that will return the String Hello, World! without actually using raw strings. This includes quotes, double quotes and template strings. You can, however, use the String constructor and any related functions.
 
     You cannot use the following:
@@ -186,5 +186,17 @@
     'Hello, World!'
     `Hello, World!`
     ```
-28. Name Remove First and Last Character, Rank 8
+28. Name - Remove First and Last Character, Rank 8
     Q. It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+29. Name - Remove Exclamation Marks From String, Rank 7
+    Q. Remove words from the sentence if they contain exactly one exclamation mark. Words are separated by a single space, without leading/trailing spaces.
+    ```
+    remove("Hi!") === ""
+    remove("Hi! Hi!") === ""
+    remove("Hi! Hi! Hi!") === ""
+    remove("Hi Hi! Hi!") === "Hi"
+    remove("Hi! !Hi Hi!") === ""
+    remove("Hi! Hi!! Hi!") === "Hi!!"
+    remove("Hi! !Hi! Hi!") === "!Hi!"
+    ```
