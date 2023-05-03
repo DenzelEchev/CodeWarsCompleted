@@ -200,3 +200,15 @@
     remove("Hi! Hi!! Hi!") === "Hi!!"
     remove("Hi! !Hi! Hi!") === "!Hi!"
     ```
+
+30. Name - Remove First and Last Character Part Two, Rank 8
+    Q. You are given a string containing a sequence of character sequences separated by commas. Write a function which returns a new string containing the same character sequences except the first and the last ones but this time separated by spaces.
+    ```
+    "1,2,3"      =>  "2"
+    "1,2,3,4"    =>  "2 3"
+    "1,2,3,4,5"  =>  "2 3 4"
+
+    ""     =>  NULL
+    "1"    =>  NULL
+    "1,2"  =>  NULL
+    ```
