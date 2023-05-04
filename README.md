@@ -212,3 +212,19 @@
     "1"    =>  NULL
     "1,2"  =>  NULL
     ```
+31. Name - Nast digits of a number, Rank 7
+    Q. Your job is to implement a function which returns the last D digits of an integer N as a list.
+    ```
+    N = 1
+    D = 1
+    result = [1]
+
+    N = 1234
+    D = 2
+    result = [3, 4]
+
+    N = 637547
+    D = 6
+    result = [6, 3, 7, 5, 4, 7]
+    ```
+
