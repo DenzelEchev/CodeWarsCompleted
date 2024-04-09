@@ -1,4 +1,4 @@
-function solve(s){
+function solve(s: string | any): [number, number, number, number]{
     let capsArr = 0
     let lowerArr = 0
     let numsArr = 0
@@ -15,6 +15,7 @@ function solve(s){
       symbolArr += 1
     }
    }
+
     return [capsArr, lowerArr, numsArr, symbolArr]
 }
 

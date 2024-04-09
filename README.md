@@ -11,6 +11,7 @@
 
 2. Name - String end with, Rank - 7
     Q: Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
     ```
     Examples:
 
@@ -25,10 +26,11 @@
     Q: Your friend Robbie has successfully created an AI that is capable of communicating in English!
 
     Robbie's almost done with the project, however the machine's output isn't working as expected. Here's a sample of a sentence that it outputs:
+
     ```
-    ["this","is","a","sentence"]    
+        ["this","is","a","sentence"]    
     ```
-    
+
     Every time that it tries to say a sentence, instead of formatting it in normal English orthography, it just outputs a list of words.
 
     Robbie has pulled multiple all-nighters to get this project finished, and he needs some beauty sleep. So, he wants you to write the last part of his       code, a sentencify function, which takes the output that the machine gives, and formats it into proper English orthography.
@@ -66,7 +68,7 @@
     Q: Given a number n, return the number of positive odd numbers below n
 
 10. Name - Simple string characters, Rank - 7
-    Q: In this Kata, you will be given a string and your task will be to return a list of ints detailing the count of uppercase letters, lowercase, numbers     and special characters, as follows.
+    Q: In this Kata, you will be given a string and your task will be to return a list of ints detailing the count of uppercase letters, lowercase, numbers and special characters, as follows.
     ```
     Solve("*'&ABCDabcde12345") = [4,5,5,3]. 
     --the order is: uppercase letters, lowercase, numbers and special characters.
