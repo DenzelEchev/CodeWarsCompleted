@@ -12,7 +12,7 @@
 2. Name - String end with, Rank - 7
     Q: Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
 
-    ```
+    ```text
     Examples:
 
     solution('abc', 'bc') // returns true
@@ -27,7 +27,7 @@
 
     Robbie's almost done with the project, however the machine's output isn't working as expected. Here's a sample of a sentence that it outputs:
 
-    ```
+    ```text
         ["this","is","a","sentence"]    
     ```
 
@@ -36,7 +36,7 @@
     Robbie has pulled multiple all-nighters to get this project finished, and he needs some beauty sleep. So, he wants you to write the last part of his       code, a sentencify function, which takes the output that the machine gives, and formats it into proper English orthography.
 
     Your function should:
-    ```
+    ```text
     Capitalise the first letter of the first word.
     Add a period (.) to the end of the sentence.
     Join the words into a complete string, with spaces.
@@ -45,7 +45,7 @@
 
 5. Name - Remove All The Marked Elements of a List, Rank - 7
     Q: Define a method/function that removes from a given array of integers all the values contained in a second array.
-    ```
+    ```text
     Examples (input -> output):
     * [1, 1, 2 ,3 ,1 ,2 ,3 ,4], [1, 3] -> [2, 2, 4]
     * [1, 1, 2 ,3 ,1 ,2 ,3 ,4, 4, 3 ,5, 6, 7, 2, 8], [1, 3, 4, 2] -> [5, 6 ,7 ,8]
@@ -69,7 +69,7 @@
 
 10. Name - Simple string characters, Rank - 7
     Q: In this Kata, you will be given a string and your task will be to return a list of ints detailing the count of uppercase letters, lowercase, numbers and special characters, as follows.
-    ```
+    ```text
     Solve("*'&ABCDabcde12345") = [4,5,5,3]. 
     --the order is: uppercase letters, lowercase, numbers and special characters.
     ```
@@ -77,20 +77,22 @@
     Q: An array is defined to be odd-heavy if it contains at least one odd element and every element whose value is odd is greater than every even-valued element.
 
     eg.
-    ```
+    ```text
     Array [11,4,9,2,8] is odd-heavy 
     because:- its odd elements [11,9] are greater than all the even elements [4,2,8]
     ```
-    ```
+
+    ```text
     Array [11,4,9,2,3,10] is not odd-heavy
     because:- one of it's even element 10 from [4,2,10] is greater than two of its odd elements [9,3] from [ 11,9,3]
     write a function called isOddHeavy or is_odd_heavy that accepts an integer array and returns true if the array is odd-heavy else return false.
+    ```
 
 12. Name - Break camelCase, Rank - 6
     Q. Complete the solution so that the function will break up camel casing, using a space between words.
 
     ex.
-    ```
+    ```text
         "camelCasing"  =>  "camel Casing"
         "identifier"   =>  "identifier"
         ""             =>  ""
@@ -98,7 +100,7 @@
 
 13. Name - Is your period late?, Rank 8
     Q. In this kata, we will make a function to test whether a period is late.Our function will take three parameters:
-    ```
+    ```text
     last - The Date object with the date of the last period
     today - The Date object with the date of the check
     cycleLength - Integer representing the length of the cycle in days
@@ -107,7 +109,7 @@
 
 14. Name - Determine offspring sex, Rank 8
     Q. Determine if the sex of the offspring will be male or female based on the X or Y chromosome present in the male's sperm.
-    ```
+    ```text
     If the sperm contains the X chromosome, return "Congratulations! You're going to have a daughter."; If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
     ```
 
@@ -116,7 +118,7 @@
 
 16. Name - Remove String Spaces, Rank 8
     Q. Write a function that removes the spaces from the string, then return the resultant string.
-    ```
+    ```text
     Ex.
     "8 j 8   mBliB8g  imjB8B8  jl  B" -> "8j8mBliB8gimjB8B8jlB"
     "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
@@ -131,7 +133,7 @@
 
 19. Name - All Star Code Challenge, Rank 8
     Q. Create a function that accepts a string and a single character, and returns an integer of the count of occurrences the 2nd argument is found in the first one. If no occurrences can be found, a count of 0 should be returned.
-    ```
+    ```text
     ("Hello", "o")  ==>  1
     ("Hello", "l")  ==>  2
     ("", "z")       ==>  0
@@ -139,20 +141,20 @@
 
 20. Name - Simple Pig Latin, Rank 5
     Q. Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
-    ```
+    ```text
     pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
     pigIt('Hello world !');     // elloHay orldway !
     ```
 
 21. Name - Decreasing Inputs, Rank 7
     Q. You will create a function named add. It will return the sum of all the arguments. The inputs will gradually decrease with their index as parameter to the function.
-    ```
+    ```text
     add(3,4,6); 
     returns ( 3 / 1 ) + ( 4 / 2 ) + ( 6 / 3 ) = 7
     ```
 22. Name - Convert number to reversed array of digits, Rank 8
     Q. Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
-    ```
+    ```text
     35231 => [1,3,2,5,3]
     0 => [0]
     ```
@@ -162,7 +164,7 @@
 24. Name - Power of Two, Rank 7
     Q. Complete the function power_of_two/powerOfTwo (or equivalent, depending on your language) that determines if a given non-negative integer is a power of two.
 
-    ```
+    ```text
     isPowerOfTwo(1024) // -> true
     isPowerOfTwo(4096) // -> true
     isPowerOfTwo(333)  // -> false
@@ -171,13 +173,13 @@
 25. Name - Mexican Wave, Rank 6
     Q. In this simple Kata your task is to create a function that turns a string into a Mexican Wave. You will be passed a string and you must return that string in an array where an uppercase letter is a person standing up. 
 
-    ```
+    ```text
     wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
     ```
 
 26. Name - Greet Me, Rank 7
     Q. Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.
-    ```
+    ```text
     "riley" --> "Hello Riley!"
     "JACK"  --> "Hello Jack!"
     ```
@@ -185,7 +187,7 @@
     Q. You need to create a function, helloWorld, that will return the String Hello, World! without actually using raw strings. This includes quotes, double quotes and template strings. You can, however, use the String constructor and any related functions.
 
     You cannot use the following:
-    ```
+    ```text
     "Hello, World!"
     'Hello, World!'
     `Hello, World!`
@@ -195,7 +197,7 @@
 
 29. Name - Remove Exclamation Marks From String, Rank 7
     Q. Remove words from the sentence if they contain exactly one exclamation mark. Words are separated by a single space, without leading/trailing spaces.
-    ```
+    ```text
     remove("Hi!") === ""
     remove("Hi! Hi!") === ""
     remove("Hi! Hi! Hi!") === ""
@@ -207,7 +209,7 @@
 
 30. Name - Remove First and Last Character Part Two, Rank 8
     Q. You are given a string containing a sequence of character sequences separated by commas. Write a function which returns a new string containing the same character sequences except the first and the last ones but this time separated by spaces.
-    ```
+    ```text
     "1,2,3"      =>  "2"
     "1,2,3,4"    =>  "2 3"
     "1,2,3,4,5"  =>  "2 3 4"
@@ -218,7 +220,7 @@
     ```
 31. Name - Nast digits of a number, Rank 7
     Q. Your job is to implement a function which returns the last D digits of an integer N as a list.
-    ```
+    ```text
     N = 1
     D = 1
     result = [1]
@@ -233,7 +235,7 @@
     ```
 32. Name - Twice as old, Rank 8
     Q. Your function takes two arguments:
-    ```
+    ```text
     1. current father's age (years)
     2. current age of his son (years)
     ```
