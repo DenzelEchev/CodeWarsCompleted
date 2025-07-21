@@ -8,5 +8,5 @@ function sentencify(words) {
 //Refractor
 function sentencify(words) {
   let sentence = words.join(' ')
-  return sentence2 = sentence.charAt(0).toUpperCase() + sentence.slice(1) + '.'
+  return sentence.charAt(0).toUpperCase() + sentence.slice(1) + '.'
 }
